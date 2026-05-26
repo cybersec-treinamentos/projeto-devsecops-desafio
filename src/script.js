@@ -1,7 +1,3 @@
-//removido o hardcoded
-const API_KEY = "VALOR_API";
-const DB_PASSWORD = "SENHA_BANCO_DE_DADOS";
-
 fetch('db.json')
     .then(response => response.json())
     .then(data => {
